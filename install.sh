@@ -9,9 +9,11 @@ YELLOW='\033[0;33m'
 RED='\033[0;31m'
 NC='\033[0m' # No Color
 
+VERSION="1.0-alpha"
 PROJ_DIR="$HOME/kronorium-discord-calendar"
 VENV_DIR="$HOME/kronorium-venv"
 AUTH_JSON="$PROJ_DIR/auth.json"
+CONFIG_JSON="$PROJ_DIR/config.json"
 
 echo "kronorium-discord-calendar Installer"
 echo -e "Created by: TechnoEquinox\tCreated on: 07-14-2024"
@@ -71,18 +73,46 @@ else
     fi
 fi
 
-# TODO: Define the systemd service file
+# TODO: Define the systemd service file.
+# Or actually just configure the cronjob and then define an endpoint that will still ping the channel
 
 echo -e "${GREEN}Install completed!${NC}"
 echo "Configuring the bot..."
 
-# Collect user input for Bot Token and Channel ID
-echo -e "\nEnter your Discord Bot Token:"
-read -r BOT_TOKEN
-echo -e "Please enter the Channel ID where the bot should respond in:"
-read -r CHANNEL_ID
+# Check if auth.json exists
+if [ -f "$AUTH_JSON" ]; then
+    echo -e "${YELLOW}auth.json already exists. Skipping bot token and channel ID configuration.${NC}"
+else
+    # Collect user input for Bot Token and Channel ID
+    echo -e "\nEnter your Discord Bot Token:"
+    read -r BOT_TOKEN
+    echo -e "Please enter the Channel ID where the bot should respond in:"
+    read -r CHANNEL_ID
 
-# Create auth.json file
-echo -e "{\n\t\"bot_token\": \"$BOT_TOKEN\",\n\t\"channel_id\": $CHANNEL_ID\n}" > "$AUTH_JSON"
+    # Create auth.json file
+    echo -e "{\n\t\"bot_token\": \"$BOT_TOKEN\",\n\t\"channel_id\": $CHANNEL_ID\n}" > "$AUTH_JSON"
+fi
+
+# Check if config.json exists
+if [ -f "$CONFIG_JSON" ]; then
+    echo -e "${YELLOW}config.json already exists. Skipping daily ping configuration.${NC}"
+else
+    # Create the config.json file
+    read -p "Do you want to receive a daily ping in $CHANNEL_ID? (yes/no): " daily_ping_answer
+
+    if [[ "$daily_ping_answer" == "yes" ]]; then
+        read -p "Enter the hour (0-23) you want to have the bot ping the channel: " tod
+        while [[ ! "$tod" =~ ^[0-9]+$ ]] || [ "$tod" -lt 0 ] || [ "$tod" -gt 23 ]; do
+            echo -e "${RED}Invalid input. Please enter a number between 0 and 23.${NC}"
+            read -p "Enter the hour (0-23) you want to have the bot ping the channel: " tod
+        done
+        daily_ping=true
+    else
+        daily_ping=false
+        tod=-1
+    fi
+
+    echo -e "{\n\t\"version\": \"$VERSION\",\n\t\"daily_ping\": $daily_ping,\n\t\"tod\": $tod\n}" > "$CONFIG_JSON"
+fi
 
 echo -e "${GREEN}Setup completed!${NC}"
