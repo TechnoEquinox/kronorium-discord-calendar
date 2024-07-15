@@ -1,0 +1,686 @@
+[
+    {
+        "ID": "001",
+        "Description": "The Great War between humanity and the Apothicons begins.",
+        "Map": "None",
+        "Date": "1292-01-15"
+    },
+    {
+        "ID": "002",
+        "Description": "Sir Pablo Marinus is saved from the clutches of a margwa by four unknown heroes. They would be later known as Primis.",
+        "Map": "None",
+        "Date": "1294-04-14"
+    },
+    {
+        "ID": "003",
+        "Description": "Together with the Keepers, Primis defeats the apothicons, bringing The Great War to an end.",
+        "Map": "None",
+        "Date": "1299-12-31"
+    },
+    {
+        "ID": "004",
+        "Description": "Before they seemingly disappear from history, Primis instructs the Wolf King to begin building Der Eisendrache.",
+        "Map": "None",
+        "Date": "1300-01-01"
+    },
+    {
+        "ID": "005",
+        "Description": "Honoring the Wolf King's dying request, his loyal servant Arthur scatters and buries his bones in the grounds of Der Eisendrache, accompanied by the King's wolf.",
+        "Map": "None",
+        "Date": "1318-09-19"
+    },
+    {
+        "ID": "006",
+        "Description": "Temporal Rifts teleport Arthur to Resolution 1295 in 2025 Angola [Buried].",
+        "Map": "None",
+        "Date": "1318-09-20"
+    },
+    {
+        "ID": "007",
+        "Description": "A meteor containing Element 115 crashes near the Stony Tunguska River [Call of the Dead].",
+        "Map": "None",
+        "Date": "1908-06-30"
+    },
+    {
+        "ID": "008",
+        "Description": "Doctor Edward Richtofen joins the Illuminati.",
+        "Map": "None",
+        "Date": "1925-08-30"
+    },
+    {
+        "ID": "009",
+        "Description": "Large deposits of Element 115 are discovered near Breslau, Germany. Doctor Ludvig Maxis, a German scientist, is sent to investigate.",
+        "Map": "None",
+        "Date": "1931-02-04"
+    },
+    {
+        "ID": "010",
+        "Description": "Maxis forms Group 935, an international organization dedicated to the study of Element 115. Maxis tells his scientists they 'represent the future of technological advancements' and will be 'pioneers of human discovery.' The group swears to work in secrecy from their respective governments. As Maxis says, 'we cannot afford to let this power fall into the wrong hands.'",
+        "Map": "None",
+        "Date": "1931-05-10"
+    },
+    {
+        "ID": "011",
+        "Description": "Samantha Maxis is born. Her father Maxis invites Richtofen to join Group 935. He agrees, secretly acting on behalf of the Illuminati's interests.",
+        "Map": "None",
+        "Date": "1934-11-05"
+    },
+    {
+        "ID": "012",
+        "Description": "The Imperial Japanese Army discovers Element 115 meteor fragment in a swamp within Japanese territory. They build the Rising Sun Facility [Shi No Numa] to continue research. Division 9 is created to oversee its operation.",
+        "Map": "None",
+        "Date": "1937-04-10"
+    },
+    {
+        "ID": "013",
+        "Description": "The United States Government discovers deposits of element 115 at Groom Lake.",
+        "Map": "None",
+        "Date": "1937-06-14"
+    },
+    {
+        "ID": "014",
+        "Description": "Maxis and Richtofen begin teleportation experiments with the Matter Transference Prototype, to mild success. The subjects are teleported, but their chemical composition is altered, leaving them catatonic and changed.",
+        "Map": "None",
+        "Date": "1939-07-02"
+    },
+    {
+        "ID": "015",
+        "Description": "Using Element 115, Maxis and Richtofen resurrect one of the teleported corpses for the first time. Initially it obeys, but soon becomes rabid and attacks them. The test subject is euthanized.",
+        "Map": "None",
+        "Date": "1939-08-05"
+    },
+    {
+        "ID": "016",
+        "Description": "Richtofen begins development of the WunderWaffe DG-2 using Element 115.",
+        "Map": "None",
+        "Date": "1939-09-03"
+    },
+    {
+        "ID": "017",
+        "Description": "Maxis turns to the Reichstag for additional funding. Germany agrees to the request, expressing interest in their weapons research, teleportation technology, and the reanimated undead subjects.",
+        "Map": "None",
+        "Date": "1939-11-23"
+    },
+    {
+        "ID": "018",
+        "Description": "During Test Trial 131, Richtofen and Doctor Schuster successfully teleport a walnut. This is the first successful test where chemical composition of the object is maintained throughout the process.",
+        "Map": "None",
+        "Date": "1939-12-04"
+    },
+    {
+        "ID": "019",
+        "Description": "Edward's Walnut Delivery fails to impress Maxis who declares it a waste of time. He reveals to Richtofen that Group 935 will soon be funded by Germany. Richtofen worries this will lead to massive defections; he and Schuster decide to continue their teleportation experiments behind Maxis' back.",
+        "Map": "None",
+        "Date": "1939-12-05"
+    },
+    {
+        "ID": "020",
+        "Description": "Richtofen and Schuster conduct their first human teleportation test. Richtofen is so confident in its success, he volunteers himself. Teleported to the Moon, he encounters the MPD, the Aether Pyramid hidden by the Apothicons. While inspecting the device, Richtofen is electrocuted and begins hearing many voices of corruption, including that of the Shadowman. The device then teleports him to Shangri-La. Corrupted by the Dark Aether, Richtofen is gradually being driven insane by an obsession to find Agartha.",
+        "Map": "None",
+        "Date": "1940-01-04"
+    },
+    {
+        "ID": "021",
+        "Description": "Richtofen is worshipped by the natives of Shangri-La; an altar is built in his name. Richtofen encounters the Focusing Stone for the first time.",
+        "Map": "None",
+        "Date": "1940-01-05"
+    },
+    {
+        "ID": "022",
+        "Description": "After near month absence, Richtofen returns to Schuster with a plan to build Griffin Station.",
+        "Map": "None",
+        "Date": "1940-01-23"
+    },
+    {
+        "ID": "023",
+        "Description": "Richtofen renounces his involvement with the Illuminati. When asked how he could abandon his obligation to the Order he says 'Teddy was a liar'.",
+        "Map": "None",
+        "Date": "1940-01-24"
+    },
+    {
+        "ID": "024",
+        "Description": "Construction of Griffin Station on the Moon begins. Frustrated with Maxis' alignment with Germany, other disgruntled Group 935 scientists join the cause.",
+        "Map": "None",
+        "Date": "1940-03-13"
+    },
+    {
+        "ID": "025",
+        "Description": "Maxis instructs his assistant Sophia to write a letter to the Reichstag High Command requesting additional funds. Though he reports that mass production will soon be underway shortly, Der Riese lacks not only the funding, but sufficient volumes of Element 115.",
+        "Map": "None",
+        "Date": "1940-07-13"
+    },
+    {
+        "ID": "026",
+        "Description": "In response to Maxis' request, Germany creates two new facilities for Group 935. They are the Kino facility, a repurposed theater, and the Asylum facility at the Wittenau Sanatorium in Berlin.",
+        "Map": "None",
+        "Date": "1940-08-01"
+    },
+    {
+        "ID": "027",
+        "Description": "As per Germany's request, the Japanese Imperial Army hands over the Rising Sun Facility to Group 935. Division 9 remains involved on site.",
+        "Map": "None",
+        "Date": "1940-08-18"
+    },
+    {
+        "ID": "028",
+        "Description": "Group 935 establishes a research facility in Siberia near the Tunguska River [Call of the Dead].",
+        "Map": "None",
+        "Date": "1940-10-03"
+    },
+    {
+        "ID": "029",
+        "Description": "Group 935 establishes a facility at Der Eisendrache.",
+        "Map": "None",
+        "Date": "1940-11-06"
+    },
+    {
+        "ID": "030",
+        "Description": "Nikolai Belinski's wife is killed during the German advance into the Soviet Union. In an effort to numb his pain, Nikolai increasingly turns to alcohol.",
+        "Map": "None",
+        "Date": "1941-06-24"
+    },
+    {
+        "ID": "031",
+        "Description": "Maxis gives Fluffy to Samantha. The dog is expecting a litter.",
+        "Map": "None",
+        "Date": "1942-01-11"
+    },
+    {
+        "ID": "032",
+        "Description": "Maxis tests the first file for storage on the data servant.",
+        "Map": "None",
+        "Date": "1942-01-20"
+    },
+    {
+        "ID": "033",
+        "Description": "On the data servant, Maxis catalogs locations with prominent Element 115 deposits. He includes information about its various application and cites that the reanimation of dead cells is a possible side effect.",
+        "Map": "None",
+        "Date": "1942-01-26"
+    },
+    {
+        "ID": "034",
+        "Description": "Richtofen completes the WunderWaffe prototype.",
+        "Map": "None",
+        "Date": "1942-01-30"
+    },
+    {
+        "ID": "035",
+        "Description": "With Griffin Station completed, Richtofen names Doctor Groph lead scientist, and returns to Earth to continue the charade with Maxis. Working alongside Schuster, Groph is left to discover how to power the MPD.",
+        "Map": "None",
+        "Date": "1942-02-01"
+    },
+    {
+        "ID": "036",
+        "Description": "In a speech to his staff, Groph talks optimistically about Griffin Station's establishment as a permanent base of operations.",
+        "Map": "None",
+        "Date": "1942-02-02"
+    },
+    {
+        "ID": "037",
+        "Description": "Maxis develops the Ray Gun prototype at the Rising Sun Facility. H. Porter works on developing the 2nd Generation Model.",
+        "Map": "None",
+        "Date": "1942-04-17"
+    },
+    {
+        "ID": "038",
+        "Description": "As result of temporal Rifts in 1963 Kino, Monty reaches across time and offers little nudges. One nudge is developing Group 935's Element 115 fused elixirs. They created four medicinal beverages known colloquially as Juggernog, Quick Revive, Speed Cola and Double Tap.",
+        "Map": "None",
+        "Date": "1942-06-13"
+    },
+    {
+        "ID": "039",
+        "Description": "Group 935 continues development of a Weapons Upgrade Machine.",
+        "Map": "None",
+        "Date": "1942-06-28"
+    },
+    {
+        "ID": "040",
+        "Description": "Groph and Schuster unwittingly discover how to charge the MPD. When Schuster kills a rat near the device, its death inexplicably begins filling the tank, charging the device. They report their findings to Richtofen.",
+        "Map": "None",
+        "Date": "1942-07-18"
+    },
+    {
+        "ID": "041",
+        "Description": "Richtofen begins sending soldiers and scientists to the Moon to be sacrificed; their souls used to charge the MPD.",
+        "Map": "None",
+        "Date": "1942-07-20"
+    },
+    {
+        "ID": "042",
+        "Description": "Takeo Masaki is dispatched by the Emperor to oversee the work of Group 935 and Division 9 at the Rising Sun Facility.",
+        "Map": "None",
+        "Date": "1942-11-05"
+    },
+    {
+        "ID": "043",
+        "Description": "Richtofen shares the Element 115-based Elixir recipes with Griffin Station. They develop Mule Kick.",
+        "Map": "None",
+        "Date": "1942-12-08"
+    },
+    {
+        "ID": "044",
+        "Description": "Nikolai's brother is killed in the Battle of Stalingrad.",
+        "Map": "None",
+        "Date": "1942-12-09"
+    },
+    {
+        "ID": "045",
+        "Description": "Richtofen creates the Monkey Bomb.",
+        "Map": "None",
+        "Date": "1942-12-14"
+    },
+    {
+        "ID": "046",
+        "Description": "In a personal log, Maxis expressed concern over Element 115's impact on Richtofen's behavior. No longer trusting him, he wondered if it was a mistake to invite him to Group 935.",
+        "Map": "None",
+        "Date": "1942-12-16"
+    },
+    {
+        "ID": "047",
+        "Description": "Accompanied by Sophia, Maxis is transferred to the Kino facility to focus on creating Germany's undead army. Samantha is left in Richtofen's care.",
+        "Map": "None",
+        "Date": "1942-12-20"
+    },
+    {
+        "ID": "048",
+        "Description": "Maxis worries he and Sophia have grown too close. He considers sending her away.",
+        "Map": "None",
+        "Date": "1943-01-08"
+    },
+    {
+        "ID": "049",
+        "Description": "Nikolai is captured by German Forces during the Battle of Stalingrad. He becomes a subject in Group 935 experiments.",
+        "Map": "None",
+        "Date": "1943-01-16"
+    },
+    {
+        "ID": "050",
+        "Description": "Maxis reports success with Subject Two-Six, whose 'violent outbursts have been greatly reduced.' Maxis believes 'this method of treatment will be 100 percent effective in most cases.'",
+        "Map": "None",
+        "Date": "1943-01-27"
+    },
+    {
+        "ID": "051",
+        "Description": "The Battle of Stalingrad ends.",
+        "Map": "None",
+        "Date": "1943-02-02"
+    },
+    {
+        "ID": "052",
+        "Description": "Maxis reports the treatment has been perfected. He believes if 'Subject Two-Six can retain the impressions longer than twenty-six hours, then the delivery of the zombie army can be accelerated.'",
+        "Map": "None",
+        "Date": "1943-02-10"
+    },
+    {
+        "ID": "053",
+        "Description": "After attacking a handler, Subject Two-Six is killed and deemed 'another setback.'",
+        "Map": "None",
+        "Date": "1943-02-12"
+    },
+    {
+        "ID": "054",
+        "Description": "Harvey Yena begins his work with Group 935.",
+        "Map": "None",
+        "Date": "1943-05-18"
+    },
+    {
+        "ID": "055",
+        "Description": "Primis arrives from Dimension 63. In an effort to prevent the events that are about to unfold, they formulate a plan to stop this dimension's Richtofen.",
+        "Map": "None",
+        "Date": "1943-06-04"
+    },
+    {
+        "ID": "056",
+        "Description": "Richtofen is contacted from the House by Maxis, who warns that 'The test subjects must never be allowed to be awakened; the havoc that could be wreaked upon the future by such simple-minded individuals would be catastrophic.'",
+        "Map": "None",
+        "Date": "1943-06-11"
+    },
+    {
+        "ID": "057",
+        "Description": "Takeo reports to the Emperor that the work being done at the Rising Sun Facility is 'unacceptable.'",
+        "Map": "None",
+        "Date": "1943-06-13"
+    },
+    {
+        "ID": "058",
+        "Description": "Primis Richtofen is teleported to the House in Agartha, reuniting him with Maxis.",
+        "Map": "None",
+        "Date": "1943-07-19"
+    },
+    {
+        "ID": "059",
+        "Description": "On the orders of the Emperor, Takeo is taken prisoner by Group 935 and Division 9. He is used as a test subject for experiments.",
+        "Map": "None",
+        "Date": "1943-07-24"
+    },
+    {
+        "ID": "060",
+        "Description": "After the setbacks with Subject Two-Six, Maxis reports new success with the Undead Army. However, he maintains his belief that the undead cannot be controlled or maintained.",
+        "Map": "None",
+        "Date": "1944-07-14"
+    },
+    {
+        "ID": "061",
+        "Description": "Pablo Marinus, a Mexican spy, is captured by Group 935 at Der Eisendrache.",
+        "Map": "None",
+        "Date": "1944-09-02"
+    },
+    {
+        "ID": "062",
+        "Description": "In his cell, Pablo writes of visions of a great war. He describes a 'great Battle against strange demon-like creatures who [were] trying to devour the Earth.' In his vision, he sees four knights protect him from certain death. He makes a note that the knights wore tunics similar to those in Der Eisendrache.",
+        "Map": "None",
+        "Date": "1945-05-09"
+    },
+    {
+        "ID": "063",
+        "Description": "An Allied plane malfunctions over an airfield and crashes. German Army trucks, transporting the undead and Element 115 between Group 935 facilities, are struck in the crash. The Marines surviving the crash hold out against the undead as long as they can.",
+        "Map": "Nacht Der Untoten",
+        "Date": "1945-06-04"
+    },
+    {
+        "ID": "064",
+        "Description": "Peter McCain infiltrates Group 935 at Der Riese.",
+        "Map": "None",
+        "Date": "1945-06-17"
+    },
+    {
+        "ID": "065",
+        "Description": "Groph and Schuster develop the Wave Gun.",
+        "Map": "None",
+        "Date": "1945-06-29"
+    },
+    {
+        "ID": "066",
+        "Description": "Richtofen travels to the Siberian Facility to do further research on 'live specimens.' As her temporary guardian, he takes Samantha with him. Group 935 begins transferring three test subjects for experimentation: Nikolai, Pablo and Takeo.",
+        "Map": "None",
+        "Date": "1945-07-15"
+    },
+    {
+        "ID": "067",
+        "Description": "While Richtofen works at the Siberian Facility, Group 935 begins development of Deadshot Daiquiri.",
+        "Map": "None",
+        "Date": "1945-07-29"
+    },
+    {
+        "ID": "068",
+        "Description": "The test subjects arrive at the Siberian Facility for Richtofen's experiments.",
+        "Map": "None",
+        "Date": "1945-08-01"
+    },
+    {
+        "ID": "069",
+        "Description": "CIA Handler Cornelius Pernell confirms that Peter McCain has successfully infiltrated Group 935 and has been transferred to the Asylum Facility. Cornelius suspects Group 935 is losing control of their experiments and has sent in a Marine Recon Unit to extract McCain. Tank Dempsey is to lead the squad.",
+        "Map": "None",
+        "Date": "1945-08-31"
+    },
+    {
+        "ID": "070",
+        "Description": "Peter is outed as a spy and captured by Group 935.",
+        "Map": "None",
+        "Date": "1945-09-01"
+    },
+    {
+        "ID": "071",
+        "Description": "Richtofen reports Pablo has died following a spleen removal. He also reveals he's been performing experiments on Samantha. World War 2 ends. Group 935 continues their research. Temporal Rifts begin to affect the Asylum facility. An Orderly reports increasing problems with test subjects. Many in the facility have begun hearing voices coming from the walls, including the sobbing of a boy and a girl, screaming, and 'a man shouting to close the windows.'",
+        "Map": "None",
+        "Date": "1945-09-02"
+    },
+    {
+        "ID": "072",
+        "Description": "An outbreak occurs at the Asylum facility. Peter McCain escapes.",
+        "Map": "None",
+        "Date": "1945-09-03"
+    },
+    {
+        "ID": "073",
+        "Description": "Dempsey, John Banana, Smokey and Paxton Ridge arrive at the Asylum facility to find it overrun by zombies. They fight off the horde as long as they can. Dempsey is apprehended by Group 935. Paxton escapes and makes it back to America. John Banana writes messages and records his last words while being eaten alive by an undead Smokey.",
+        "Map": "Verrückt",
+        "Date": "1945-09-06"
+    },
+    {
+        "ID": "074",
+        "Description": "Richtofen reports another spy has been captured and will be brought in to replace 'the Mexican.' The subject is Dempsey.",
+        "Map": "None",
+        "Date": "1945-09-10"
+    },
+    {
+        "ID": "075",
+        "Description": "Cornelius Pernell attempts to send a transmission to Peter McCain, telling him to rendezvous at the Rising Sun Facility.",
+        "Map": "None",
+        "Date": "1945-09-13"
+    },
+    {
+        "ID": "076",
+        "Description": "Dempsey arrives at the Siberian Facility.",
+        "Map": "None",
+        "Date": "1945-09-17"
+    },
+    {
+        "ID": "077",
+        "Description": "Richtofen documents the personality traits of his test subjects. Dempsey's 'intellect seems low, but his will is strong.' Takeo is 'still staring at the floor, muttering what sounds like some kind of proverb over and over again.' Nikolai has 'recently begun responding to stimuli, but only after injections of a new serum made primarily from vodka.' Richtofen notes that their minds have been almost entirely broken, with no memory remaining of who they once were.",
+        "Map": "None",
+        "Date": "1945-09-20"
+    },
+    {
+        "ID": "078",
+        "Description": "Maxis returns to Der Riese. He orders Richtofen to do likewise so they may continue their work on the Matter Transference Device.",
+        "Map": "None",
+        "Date": "1945-09-24"
+    },
+    {
+        "ID": "079",
+        "Description": "Richtofen returns to Der Riese with Dempsey, Nikolai, Takeo and Samantha.",
+        "Map": "None",
+        "Date": "1945-09-27"
+    },
+    {
+        "ID": "080",
+        "Description": "Maxis reports on Richtofen's findings with his live test subjects, noting that while their baseline psyche remains intact, all specific memories have been lost. Infuriated to learn that Maxis has not been mass producing the DG-2 as he swore he would, Richtofen revels in his plot to destroy Maxis and Samantha, vowing that he will no longer continue to work on his undead army.",
+        "Map": "None",
+        "Date": "1945-10-01"
+    },
+    {
+        "ID": "081",
+        "Description": "Groph reports to Richtofen the MPD is nearly ready.",
+        "Map": "None",
+        "Date": "1945-10-08"
+    },
+    {
+        "ID": "082",
+        "Description": "Groph radios Richtofen to inform him that the device has been powered up and is awaiting the conduit. Richtofen says he will proceed with Operation Shield and dispose of Maxis and Samantha.",
+        "Map": "None",
+        "Date": "1945-10-12"
+    },
+    {
+        "ID": "083",
+        "Description": "Though frustrated that the 'matter transference tests... have been largely unsuccessful,' Maxis acknowledges 'that the test subjects [departure] from their original point of origin is undeniable.' However, Richtofen's suggestion that the subjects have been transported not through space, but time itself causes Maxis to worry if his 'irrationally may soon prove a liability to our endeavors.' Maxis and Richtofen perform teleportation test trials on Test Subjects number 3, 4 and 5. All fail, including test 5, where Maxis uses Fluffy. Test 6 fails, Fluffy — now changed — is teleported back into the chamber. Samantha sees Fluffy and runs into the teleporter. Maxis chases after her. Richtofen seals them both in the test chamber and teleports all three of them.",
+        "Map": "None",
+        "Date": "1945-10-13"
+    },
+    {
+        "ID": "084",
+        "Description": "Samantha is teleported to the moon while Groph and Schuster work out the MPD. Running into the MPD, she is drawn inside of it, where she becomes corrupted by the Dark Aether. Maxis is teleported to the Crazy Place and develops the power to merge with electricity. Richtofen returns to the moon. Learning Samantha is trapped in the MPD, he orders Groph to teleport Maxis there to coax her out of the device. He also warns Groph to keep an eye out for an 'evil looking dog.' In an effort to free Samantha, Maxis approaches the MPD and persuades her to come out. Once she does, Maxis gives her an instruction: 'Kill them... all.' Maxis kills himself and merges with the technology of Griffin Station, while Samantha unleashes the undead upon the base.",
+        "Map": "None",
+        "Date": "1945-10-13"
+    },
+    {
+        "ID": "085",
+        "Description": "H. Porter activates the alarm as an outbreak occurs at Der Riese. Before taking a cyanide capsule, he says he's 'all out of hope, God forgive us all.' Richtofen returns to Der Riese and awakens Dempsey, Takeo and Nikolai. With no recollection of who they are or who Richtofen is, they agree to help him. The four would become known as Ultimis.",
+        "Map": "None",
+        "Date": "1945-10-14"
+    },
+    {
+        "ID": "086",
+        "Description": "Peter McCain parachutes over the Rising Sun Facility. He dies shortly after.",
+        "Map": "None",
+        "Date": "1945-10-18"
+    },
+    {
+        "ID": "087",
+        "Description": "Ultimis travels to the Rising Sun Facility to recover Richtofen's diary. Upon reading it, Richtofen begins to form his plan to defeat Samantha.",
+        "Map": "Shi No Numa",
+        "Date": "1945-10-21"
+    },
+    {
+        "ID": "088",
+        "Description": "Ultimis returns to Der Riese. With his diary, Richtofen plans to use the teleporter to return to the moon and confront Samantha. Unfortunately, the Wunderwaffe DG-2 overloads the teleporter and sends them through time — causing Richtofen to drop his diary.",
+        "Map": "Der Riese",
+        "Date": "1945-10-28"
+    },
+    {
+        "ID": "089",
+        "Description": "Group 935 is disbanded.",
+        "Map": "None",
+        "Date": "1945-11-05"
+    },
+    {
+        "ID": "090",
+        "Description": "The United States and the Soviet Union share the resources recovered from Group 935's various research stations. Richtofen's diary is among the items recovered by the Soviet Union.",
+        "Map": "None",
+        "Date": "1946-01-19"
+    },
+    {
+        "ID": "091",
+        "Description": "The Pentagon hires many former Group 935 scientists in an effort to replicate their work. As with their US counterparts, the Soviets hire many former Group 935 scientists. Among them is Harvey Yena, who forms the Ascension Group.",
+        "Map": "None",
+        "Date": "1946-01-27"
+    },
+    {
+        "ID": "092",
+        "Description": "The Pentagon begins experiments involving their own versions of the undead.",
+        "Map": "None",
+        "Date": "1952-07-29"
+    },
+    {
+        "ID": "093",
+        "Description": "The US Government transfers a number of Element 115 experiments to the Groom Lake Facility.",
+        "Map": "None",
+        "Date": "1955-05-12"
+    },
+    {
+        "ID": "094",
+        "Description": "Gersh and Yuri Zavoyski begin working for the Ascension Group.",
+        "Map": "None",
+        "Date": "1955-10-19"
+    },
+    {
+        "ID": "095",
+        "Description": "Explorers Brock and Gary discover Shangri-La. During an eclipse, they're unwittingly trapped in a time loop. Sally, sent back in time from 2011, is trapped in the same loop. Ultimis arrives in Shangri-La. With the help of Brock and Gary, they acquire the Focusing Stone.",
+        "Map": "Shangri-La",
+        "Date": "1956-04-23"
+    },
+    {
+        "ID": "096",
+        "Description": "The Pentagon constructs their own prototype teleporter, and commence experimentation.",
+        "Map": "None",
+        "Date": "1959-06-03"
+    },
+    {
+        "ID": "097",
+        "Description": "Studying Group 935's medicinal elixir research, the Ascension Group develops PhD Flopper and Stamin-Up.",
+        "Map": "None",
+        "Date": "1962-03-13"
+    },
+    {
+        "ID": "098",
+        "Description": "Gersh begins work on Project Thunder.",
+        "Map": "None",
+        "Date": "1962-11-11"
+    },
+    {
+        "ID": "099",
+        "Description": "Gersh and Yuri begin work on the Gersh Device, codenamed Project Mercury.",
+        "Map": "None",
+        "Date": "1962-12-12"
+    },
+    {
+        "ID": "100",
+        "Description": "The Pentagon begins development on their own version of the Wunderwaffe DG-2.",
+        "Map": "None",
+        "Date": "1963-06-15"
+    },
+    {
+        "ID": "101",
+        "Description": "The Pentagon begins on development of their own version of the Winter's Howl.",
+        "Map": "None",
+        "Date": "1963-08-17"
+    },
+    {
+        "ID": "102",
+        "Description": "From Der Riese, Ultimis teleports to Kino. This marks the first time Ultimis travels across space and time. Temporal Rift occur across dimensions. In light of these developments, Monty feels obligated to step in, and begins to make changes in the background across time. He helps Group 935 invent Perk Machines. He adds chalk drawings to walls. Little nudges. Ultimis locates a Lunar Lander and fly to the Ascension Facility.",
+        "Map": "Kino Der Toten",
+        "Date": "1963-10-28"
+    },
+    {
+        "ID": "103",
+        "Description": "Gersh informs the senior staff that Yuri has been removed from Project Mercury and has been transferred to Rocket Research. Yuri begins to notice the appearance of children's toys around the facility.",
+        "Map": "None",
+        "Date": "1963-10-29"
+    },
+    {
+        "ID": "104",
+        "Description": "Upon reading Richtofen's diary, Yuri begins to hear Samantha's voice. Over several days, her voice will consume him, driving him to the brink of insanity. She orders him to resume work on the Gersh Device. He obeys.",
+        "Map": "None",
+        "Date": "1963-11-01"
+    },
+    {
+        "ID": "105",
+        "Description": "Richtofen, Tank, Takeo and Nikolai free Gersch from the Casimir mechanism, but then shoots them into the Gersch device, and this causes them to be shot forward in time again after 1996. Meanwhile, Kennedy, McNamara, Castro and Nixon fight zombies at the Pentagon [Five].",
+        "Map": "Ascension, Five",
+        "Date": "1963-11-05"
+    },
+    {
+        "ID": "106",
+        "Description": "Sarah Michelle Gellar, Danny Trejo, Robert Englund and Michael Rooker are attacked by zombies when making a film with George Romero on a Siberian island by a sunken ship. They hear Tank, Nikolai, Takeo and Richtofen trapped behind a door, after being shot forward in time again. The celebrities get the Golden Rod for Richtofen and they are teleported to Shangri-La.",
+        "Map": "Call of the Dead",
+        "Date": "1996-03-17"
+    },
+    {
+        "ID": "107",
+        "Description": "Albert Arlington, Salvatore Deluca, Finn O'leary and Billy Handsome attempt to escape from Alcatraz on a plane of Arlington's design. The plan fails and the plane is never built. The three mobsters kill Arlington for the failure.",
+        "Map": "None",
+        "Date": "1933-12-31"
+    },
+    {
+        "ID": "108",
+        "Description": "Finn O'leary, Billy Handsome and Salvatore Deluca are sentenced to death by electric chair for the murder of Arlington. The four mobsters are sent into a purgatory pocket dimension which is under control by the Warden of Alcatraz.",
+        "Map": "None",
+        "Date": "1934-01-19"
+    },
+    {
+        "ID": "109",
+        "Description": "Die Maschine takes place in an abandoned Nazi research facility (Remake of Nacht) for a particle-colliding experiment responsible for opening a rift into the Dark Aether known as 'Projekt Endstation' in Morasko, Poland.",
+        "Map": "Die Maschine",
+        "Date": "1983-11-13"
+    },
+    {
+        "ID": "110",
+        "Description": "Firebase Z takes place at Outpost 25, an Omega Group research facility in the jungles of Vietnam that has provided the organization with countless Dark Aether-powered technologies and armaments as a result of their extensive Dark Aether research from the facility's on-site dimensional rift.",
+        "Map": "Firebase Z",
+        "Date": "1984-06-15"
+    },
+    {
+        "ID": "111",
+        "Description": "As Requiem continued to fall behind in the arms race against Omega Group following the events of 'Firebase Z,' various regions in the Ural Mountains have erupted into the world’s largest Outbreak Zone. Before Requiem even discovered this breakthrough, Omega Group was on the scene already, harvesting Aetherium in extreme numbers and in its purest form.",
+        "Map": "Outbreak - Operation Threshold",
+        "Date": "1984-06-01"
+    },
+    {
+        "ID": "112",
+        "Description": "Dr. Peck was able to supercharge the power of Aetherium Crystals for Omega Group’s reality inversion warheads, making this astronomical leap in research and development with only one remaining eye (as the other was removed forcibly by Kravchenko at Outpost 25). Fortunately for Requiem, Ravenov was able to meet a squad of agents at the launch site deep below the forests of Ruka in a previously undiscovered missile silo to stop these warheads from creating additional Outbreak Zones.",
+        "Map": "Operatsiya Inversiya",
+        "Date": "1984-11-16"
+    },
+    {
+        "ID": "113",
+        "Description": "Shortly after this successful mission, Requiem identifies eight scientists within Omega Group who are willing to defect for their safety, known as 'The Omega Eight.' Requiem’s top team of agents arrives after multiple jumps with a special device to contact Ravenov for more intel.",
+        "Map": "Operation Excision",
+        "Date": "1984-12-14"
+    },
+    {
+        "ID": "114",
+        "Description": "The events of 'Die Maschine,' 'Firebase Z,' and 'Outbreak' have all led up to 'Mauer der Toten,' Treyarch’s newest round-based Zombies map where captured Requiem agents will have to do Kravchenko’s bidding in exchange for their freedom... and their lives. Then they all get betrayed by Requiem team whom is controlled by Eddie(Richthofen) and we are left on a cliffhanger.",
+        "Map": "Mauer der Toten",
+        "Date": "1985-02-02"
+    }
+]
