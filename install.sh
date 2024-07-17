@@ -14,6 +14,7 @@ PROJ_DIR="$HOME/kronorium-discord-calendar"
 VENV_DIR="$HOME/kronorium-venv"
 AUTH_JSON="$PROJ_DIR/auth.json"
 CONFIG_JSON="$PROJ_DIR/config.json"
+SERVICE_FILE="/etc/systemd/system/kronorium-discord-calendar.service"
 
 echo "kronorium-discord-calendar Installer"
 echo -e "Created by: TechnoEquinox\tCreated on: 07-14-2024"
@@ -128,6 +129,41 @@ else
     fi
 
     echo -e "{\n\t\"version\": \"$VERSION\",\n\t\"daily_ping\": $daily_ping,\n\t\"prefix\": \"$prefix\",\n\t\"tod\": $tod\n}" > "$CONFIG_JSON"
+fi
+
+
+echo "Checking if the kronorium-discord-calendar service exists..."
+if [ -f "$SERVICE_FILE" ]; then
+    echo -e "${YELLOW}Systemd service already exists. Skipping creation.${NC}"
+else
+    # Create systemd service file
+    echo -e "${YELLOW}Systemd service not found. Creating the service...${NC}"
+    sudo bash -c "cat > $SERVICE_FILE" <<EOL
+[Unit]
+Description=Kronorium Discord Calendar Bot
+After=network.target
+
+[Service]
+User=$USER
+WorkingDirectory=$PROJ_DIR
+ExecStart=$VENV_DIR/bin/python3 $PROJ_DIR/bot.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+EOL
+
+    # Enable and start the systemd service
+    sudo systemctl daemon-reload
+    sudo systemctl enable kronorium-discord-calendar.service
+    sudo systemctl start kronorium-discord-calendar.service
+fi
+
+# Add cron job for daily ping
+if [ "$daily_ping" = true ]; then
+    CRON_JOB="* $tod * * * $VENV_DIR/bin/python3 $PROJ_DIR/cronjob.py >> $PROJ_DIR/logs/cronjob.log 2>&1"
+    # Check if the cron job already exists
+    (crontab -l 2>/dev/null | grep -F "$CRON_JOB") || (crontab -l 2>/dev/null; echo "$CRON_JOB") | crontab -
 fi
 
 echo -e "${GREEN}Setup completed!${NC}"
