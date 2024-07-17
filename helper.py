@@ -64,8 +64,23 @@ class Helper():
             Returns: String
         """
         config = self.load_config()
+        time_for_ping = self.convert_hour_to_time(config['tod'])
         
         response = f"kronorium-discord-calendar\nVersion: {config['version']}\nCreated by: TechnoEquinox\n\n"
-        response += f"Daily Ping Enabled: {config['daily_ping']}\nTime for ping: {config['tod']}\nPrefix: kron!\n\n"
+        response += f"Daily Ping Enabled: {config['daily_ping']}\nTime for ping: {time_for_ping}\nPrefix: kron!\n\n"
 
         return f"```{response}```"
+    
+    def convert_hour_to_time(self, hour):
+        """
+            Function to convert hour integer to a readable time format
+            Returns: String
+        """
+        if hour == -1:
+            return "Unknown"
+        
+        period = "am" if hour < 12 else "pm"
+        hour_display = hour % 12
+        hour_display = 12 if hour_display == 0 else hour_display
+        
+        return f"{hour_display}:00{period}"

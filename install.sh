@@ -111,8 +111,23 @@ else
         daily_ping=false
         tod=-1
     fi
+    
+    # Prompt for the prefix string
+    read -p "Enter the command prefix (default: kron!): " prefix
+    if [ -z "$prefix" ]; then
+        prefix="kron!"
+    else
+        while [[ ! "$prefix" =~ ^[a-zA-Z]{1,4}!$ ]]; do
+            echo -e "${RED}Invalid input. The prefix must be 1-4 alphabetic characters followed by an exclamation mark (!).${NC}"
+            read -p "Enter the command prefix (default: kron!): " prefix
+            if [ -z "$prefix" ]; then
+                prefix="kron!"
+                break
+            fi
+        done
+    fi
 
-    echo -e "{\n\t\"version\": \"$VERSION\",\n\t\"daily_ping\": $daily_ping,\n\t\"tod\": $tod\n}" > "$CONFIG_JSON"
+    echo -e "{\n\t\"version\": \"$VERSION\",\n\t\"daily_ping\": $daily_ping,\n\t\"prefix\": \"$prefix\",\n\t\"tod\": $tod\n}" > "$CONFIG_JSON"
 fi
 
 echo -e "${GREEN}Setup completed!${NC}"
