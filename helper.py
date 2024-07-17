@@ -32,6 +32,13 @@ class Helper():
         with open('config.json', 'r') as f:
             return json.load(f)
     
+    def calc_elapsed_time(self, start, end):
+        """
+            Takes a start and end time and calculates the time in miliseconds (ms) that have elapsed
+            Returns: int
+        """
+        return round((end - start) * 1000, 0)  # Elapsed time in ms
+    
     def create_today_response(self, events):
         """
             Creates the response for the 'today' command.

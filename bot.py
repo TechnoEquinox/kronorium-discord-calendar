@@ -1,6 +1,7 @@
 import json
 import discord
 from discord.ext import commands
+import time
 from datetime import datetime
 from helper import Helper
 
@@ -65,22 +66,32 @@ async def on_ready():
 
 @bot.command(help="Ping the bot to check if it's online.")
 async def ping(ctx):
+    start_time = time.time()  # Record the start time
     print(f'Received ping command in channel {ctx.channel.id}')
     
     if ctx.channel.id == CHANNEL_ID:
-        await ctx.send('Pong!')
+        end_time = time.time()  # Record the end time
+        elapsed_time = helper.calc_elapsed_time(start_time, end_time)
+        await ctx.send(f'Pong! ({int(elapsed_time)}ms)')
     else:
-        print(f'Ping command ignored in channel {ctx.channel.id}')
+        end_time = time.time()  # Record the end time
+        elapsed_time = helper.calc_elapsed_time(start_time, end_time)
+        print(f'Ping command ignored in channel {ctx.channel.id} after {elapsed_time}ms')
 
 @bot.command(help="Get the events for today in Call of Duty Zombies history.")
 async def today(ctx):
+    start_time = time.time()  # Record the start time
     print(f'Received today command in channel {ctx.channel.id}')
     
     if ctx.channel.id == CHANNEL_ID:
         response = helper.create_today_response(events)
-        await ctx.send(response)
+        end_time = time.time()  # Record the end time
+        elapsed_time = helper.calc_elapsed_time(start_time, end_time)
+        await ctx.send(f"({elapsed_time}ms) " + response)
     else:
-        print(f'Today command ignored in channel {ctx.channel.id}')
+        end_time = time.time()  # Record the end time
+        elapsed_time = helper.calc_elapsed_time(start_time, end_time)
+        print(f'Today command ignored in channel {ctx.channel.id} after {elapsed_time}ms')
 
 @bot.command(help="Show the configuration of the bot.")
 async def config(ctx):
