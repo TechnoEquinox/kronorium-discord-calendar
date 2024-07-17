@@ -74,9 +74,6 @@ else
     fi
 fi
 
-# TODO: Define the systemd service file.
-# Or actually just configure the cronjob and then define an endpoint that will still ping the channel
-
 echo -e "${GREEN}Install completed!${NC}"
 echo "Configuring the bot..."
 
@@ -161,7 +158,7 @@ fi
 
 # Add cron job for daily ping
 if [ "$daily_ping" = true ]; then
-    CRON_JOB="* $tod * * * $VENV_DIR/bin/python3 $PROJ_DIR/cronjob.py >> $PROJ_DIR/logs/cronjob.log 2>&1"
+    CRON_JOB="0 $tod * * * $VENV_DIR/bin/python3 $PROJ_DIR/cronjob.py >> $PROJ_DIR/logs/cronjob.log 2>&1"
     # Check if the cron job already exists
     (crontab -l 2>/dev/null | grep -F "$CRON_JOB") || (crontab -l 2>/dev/null; echo "$CRON_JOB") | crontab -
 fi
