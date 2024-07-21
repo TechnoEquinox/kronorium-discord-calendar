@@ -53,6 +53,21 @@ After making any changes to either of these files, you will need to restart the 
 sudo systemctl restart kronorium-discord-calendar.service
 ```
 
+## FAQ
+
+**1. Why isn't the daily ping happening at the time I chose during setup?**
+
+Check the configured timezone of your Debian system using the following command:
+
+```sh
+timedatectl
+```
+Verify that the local time matches your current time. If the time is mismatched, change the system time to reflect your local time.
+
+**2. Why don't I get a ping from this bot every day?**
+
+This is an expected behavior. There are currently only 114 entries with concrete dates in the Kronorium. Entries in the Kronorium that didn't have a specific date (i.e. "Sometime in 1945") have been ommited. The bot will only ping the specified channel if an event has occured on the current date. Check out the kronorium.json file for a list of all of the dates the bot is checking for.
+
 
 
 
