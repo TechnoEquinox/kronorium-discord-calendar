@@ -26,22 +26,6 @@ intents.message_content = True  # Enables access to message content
 
 bot = commands.Bot(command_prefix='kron!', intents=intents)
 
-# Return the number of days between now and the next event in the kronorium
-def days_until_next_event(events):
-    today = datetime.now().date()  # Get the current date without time
-    sorted_events = sorted(events, key=lambda x: datetime.strptime(x['Date'], "%Y-%m-%d").replace(year=today.year))
-
-    # Find the next event after today
-    for event in sorted_events:
-        event_date = datetime.strptime(event['Date'], "%Y-%m-%d").replace(year=today.year).date()
-        
-        if event_date > today:  # The event must be strictly after today
-            return (event_date - today).days
-
-    # If all events are in the past, calculate days until the first event of next year
-    next_year_first_event = datetime.strptime(sorted_events[0]['Date'], "%Y-%m-%d").replace(year=today.year + 1).date()
-    return (next_year_first_event - today).days
-
 class CustomHelpCommand(commands.HelpCommand):
     def __init__(self, config):
         super().__init__()
@@ -77,10 +61,10 @@ async def on_ready():
     print(f'Bot connected as {bot.user}')
 
     # Calculate days until the next event and set the status
-    days = days_until_next_event(events)
-    status = f"{days} days until the next event"
-    await bot.change_presence(activity=discord.Game(name=status))
-    print(f'Set status: {status}')
+    days = helper.days_until_next_event(events)
+    status_message = f"{days} days until the next event"
+    await bot.change_presence(activity=discord.Game(name=status_message))
+    print(f'Set status: {status_message}')
 
     for guild in bot.guilds:
         print(f'- Bot is in guild: {guild.name} (id: {guild.id})')
