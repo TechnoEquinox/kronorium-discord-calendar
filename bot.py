@@ -59,6 +59,13 @@ bot.help_command = CustomHelpCommand(config)
 @bot.event
 async def on_ready():
     print(f'Bot connected as {bot.user}')
+
+    # Calculate days until the next event and set the status
+    days = helper.days_until_next_event(events)
+    status_message = f"{days} days until the next event"
+    await bot.change_presence(activity=discord.Game(name=status_message))
+    print(f'Set status: {status_message}')
+
     for guild in bot.guilds:
         print(f'- Bot is in guild: {guild.name} (id: {guild.id})')
         for channel in guild.channels:

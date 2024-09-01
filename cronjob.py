@@ -45,10 +45,17 @@ try:
                 await channel.send(f"({elapsed_time}ms) " + response)
         else:
             print(f"Failed to get channel with ID {CHANNEL_ID}")
+
+        # Update the bot's status with days until the next event value
+        days = helper.days_until_next_event(events)
+        status_message = f"{days} until the next event"
+        await client.change_presence(activity=discord.Game(name=status_message))
+        print(f"Set status: {status_message}")
+
         await client.close()  # Close the connection
 
     def run_bot():
-        print("Running bot...")
+        print("Running the bot's cronjob...")
         client.run(TOKEN)
         print("Bot finished running")
 

@@ -75,6 +75,7 @@ class Helper():
         
         response = f"kronorium-discord-calendar\nVersion: {config['version']}\nCreated by: TechnoEquinox\n\n"
         response += f"Daily Ping Enabled: {config['daily_ping']}\nTime for ping: {time_for_ping}\nPrefix: kron!\n\n"
+        response += "A special thanks to Psy for finding that one bug that I completely missed."
 
         return f"```{response}```"
     
@@ -91,3 +92,22 @@ class Helper():
         hour_display = 12 if hour_display == 0 else hour_display
         
         return f"{hour_display}:00{period}"
+    
+    def days_until_next_event(self, events):
+        """
+            Function that takes a list of events from our kronorium.json, and calculates the amount of days between
+            today and that date
+            Returns: int
+        """
+        today = datetime.now().date()  # Get the current date
+        sorted_events = sorted(events, key=lambda x: datetime.strptime(x['Date'], "%Y-%m-%d").replace(year=today.year))
+
+        for event in sorted_events:
+            event_date = datetime.strptime(event['Date'], "%Y-%m-%d").replace(year=today.year).date()
+            
+            if event_date > today:  # The event must be strictly after today
+                return (event_date - today).days
+
+        # If all events are past, consider the first event of the next year
+        next_year_first_event = datetime.strptime(sorted_events[0]['Date'], "%Y-%m-%d").replace(year=today.year + 1).date()
+        return (next_year_first_event - today).days
